@@ -1,0 +1,15 @@
+// LOCALHOST
+
+### Get all contacts
+GET http://localhost:3000/contacts
+
+### Get one contact by ID
+GET http://localhost:3000/contacts/672f5f5c78b5ac20356fb463
+
+// PRODUCTION
+
+### Get all contacts
+GET https://cse341-project1-okfr.onrender.com/contacts
+
+### Get one contact by ID
+GET https://cse341-project1-okfr.onrender.com/contacts/672f5f5c78b5ac20356fb463
