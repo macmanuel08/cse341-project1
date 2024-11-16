@@ -40,3 +40,30 @@ GET https://cse341-project1-okfr.onrender.com/contacts
 
 ### Get one contact by ID
 GET https://cse341-project1-okfr.onrender.com/contacts/672f5f5c78b5ac20356fb463
+
+### Create a contact
+POST https://cse341-project1-okfr.onrender.com/contacts/ HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Claude",
+  "lastName": "Young",
+  "email": "claude.young@sample.com",
+  "favoriteColor": "Blue",
+  "birthday": "May 4, 2010"
+}
+
+### Update a contact
+PUT https://cse341-project1-okfr.onrender.com/contacts/67380ec7c002560eafb48cd5 HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Jon",
+  "lastName": "Smith",
+  "email": "jon.smith@sample.com",
+  "favoriteColor": "White",
+  "birthday": "December 14, 1996"
+}
+
+### Delete a contact
+DELETE https://cse341-project1-okfr.onrender.com/contacts/67380fba8537949bcb768350 HTTP/1.1
