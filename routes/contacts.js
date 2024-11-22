@@ -9,7 +9,8 @@ router.post(
     '/',
     firstNameRules(),
     checkFirstName,
-    contactsController.createContact);
+    contactsController.createContact
+);
 router.put('/:id', contactsController.updateContact);
 router.delete('/:id', contactsController.deleteContact);
 

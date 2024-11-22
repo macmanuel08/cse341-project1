@@ -11,11 +11,11 @@ POST http://localhost:3000/contacts/ HTTP/1.1
 content-type: application/json
 
 {
-  "firstName": "Claude",
-  "lastName": "Young",
-  "email": "claude.young@sample.com",
-  "favoriteColor": "Blue",
-  "birthday": "May 4, 2010"
+  "firstName": "",
+  "lastName": "Peters",
+  "email": "cris.peters@sample.com",
+  "favoriteColor": "Yellow",
+  "birthday": "October 26, 2018"
 }
 
 ### Update a contact
